@@ -1,15 +1,8 @@
 # Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+this project is a simple webpage, that allows users;
+1. connect their wallet.
+2. leave a message
+3. send "hugs"
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+once the transaction is approved by the user, the message and wallet address of the user is printed on the webpage 
